@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Form in HTML</h1>
+    <form method="post" action="">
+        <label for="name"> Name </label>
+        <input type="text" name="name" id="name" placeholder="Enter your name">
+        <br> <br>
+        <label for="email">Email </label>
+        <input type="email" name="email" id="email" placeholder="abc@gmail.com">
+        <br> <br>
+        <label for="password"> password</label>
+        <input type="password" name="pw" id="password" placeholder="*******" required>
+        <br> <br>
+        <label for="male">Gender</label>
+        <input type="radio" name="gender" id="male">
+        <label for="">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+        <br><br>
+        <label for="cv">CV</label>
+        <input type="file" name="cv" id="cv" multiple accept=".pdf, .png">
+        <br><br>
+        <label for="Postal">Postal Code</label>
+        <input type="text" name="postercode" id="postal" pattern="[0-9]{5}" placeholder="11111">
+        <br><br>
+        <input type="date" name="" id="">
+        <input type="datetime-local" name=""  id="">
+        <input type="color" name="" id="">
+        <br><br>
+
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </form>
+
+<!--
+Form= initiates the form 
+input= used to generate input fields like text, password, email. etc
+id= unique identifier for web page
+label = to name/ caption the input field
+name= vlaue responsible to receive data in backend 
+palceholder= to show text while filing the form  
+method= how data is send to server 
+get= can only sed upto 2000 characters , data visible in the URL.
+post= can send large data in a form, data is secure during for submission.
+input= email - for email validation
+input= password - for password
+input= submit- for submission
+input= radio- multiple choice single select.
+input= date- for date
+input= datetimelocal- date and time
+input-= color - for color  
+-->
+
+
+</body>
+</html>
