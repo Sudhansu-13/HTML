@@ -1,0 +1,10 @@
+1. Navigation
+2. Hero Section 
+3. Content and Details Section
+4. CTA(call to action) Buttons
+5. Blog Section
+6. News Article Section
+7. Branding and logo Section
+8. Footer Section
+9.  FAQ Secttion- Frequently asked question
+

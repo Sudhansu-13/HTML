@@ -1,0 +1,20 @@
+/* link with selector.html*/
+
+*{background-color: green ; color:white} /*universal selector */
+
+h2{
+    background-color: black; color: white;
+}  /*  Element Selector */
+
+/* id selector  : only specific*/
+#unique{
+    background-color: brown;
+    color: white;
+}
+
+/* class selector : multiple lai ekkaichoti*/
+
+.common{
+background-color: yellow;
+color:white
+}
