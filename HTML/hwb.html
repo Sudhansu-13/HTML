@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #outer{
+            width: 200px;
+            height: 200px;
+            /* border: size style color */
+            border: 1px solid black;
+        }
+
+        #rem{
+            width: 5rem;
+            height: 5rem;
+            background-color: black;
+        }
+
+        #parent{
+            width: 500px;
+            height: 500px;
+            background-color: pink;
+            font-size: 20px;
+        }
+        #child{
+            width: 5em;
+            height: 5em;
+            background-color: blue;
+            border: 1px solid black;
+        }
+        #viewpoint{
+            width: 50vw;
+            height: 50vh;
+            background-color: orange;
+        }
+        #percent{
+            width: 70%;
+            height: 70%;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>Height, Weight and Boarder in CSS</h1>
+<div id="outer" style="background-color: red;">
+    <p>Sudhansu Sunar</p>
+
+</div>
+<hr>
+<h1>Unit in CSS</h1>
+<h2>Absolute Unit</h2>
+<!-- fixed unit  - eg px, inch, mm , cm , m , feet, -->
+<h2>Relative Unit</h2>
+<!-- Unit that doesnot have fixed size.
+ Eg. rem, em , vh , vw , %
+ rem- reference fon size of root element
+  1 rem = 16 px
+em- reference font size of parent element 
+vh - viewpoint height means screen height.
+100vh means 100% height of the screen .
+vw - viewpoint width means screen width. 100 
+vw means 100% width of the screen .
+% - reference size of the parent element .
+ -->
+
+ <p>rem</p>
+ <div id="rem">
+
+ </div>
+ 
+ <hr>
+<p>em</p>
+<div id="parent">
+    <div id="child">
+
+    </div>
+</div>
+
+<p>vh and vw</p>
+<div id="viewpoint">
+
+</div>
+
+
+<div id="percent">
+    <p>%</p>
+</div>
+</body>
+</html>
