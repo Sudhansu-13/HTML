@@ -1,0 +1,65 @@
+/* Flexbox CSS use for space and aligment, up space , side space, 
+there is one parent and child  
+flex direnction is horizontally algin which called main axis*/
+/* Parent CSS */
+.parent {
+    height: 500px;
+    width: 800px;
+    border: 1px solid black;
+    display: flex;
+
+}
+
+.child{
+ height: 100px;
+    width:100px;
+    border: 1px solid black;
+}
+#column{
+    flex-direction: column;
+}
+
+#row-reverse{
+    flex-direction: row-reverse;
+}
+
+#column-reverse{
+    flex-direction: column-reverse;
+}
+
+#space-evenly{
+    justify-content: space-evenly;
+}
+
+#space-around{
+    justify-content: space-around;
+}
+
+#space-between{
+    justify-content: space-between;
+}
+
+
+#space-right{
+    justify-content: right;
+}
+
+
+#space-center{
+    justify-content: center;
+}
+
+/* Align Item*/
+
+#start{
+    align-items: start;
+
+}
+
+#end{
+    align-items: end;
+}
+
+#center{
+    align-items: center;
+}

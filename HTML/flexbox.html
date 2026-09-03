@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/flexbox.css">
+</head>
+<body>
+    <h1>Flexbox Day 1</h1>
+    <!--
+    Flexbox 
+    In CSS, flexbox is a one dimensional model to manage the space and alignmnet of the items inside the parent container.
+
+    syntax:
+    display: flex;
+    Flexbox has two axis , main axis and cross axis.
+
+    Main axis is responsible to manange space.The main axis can be changed with the flex
+    direction. By default , main axis is in horizontal position.
+
+    Crss axis is reponsible to manage alignmnet. The cross axis is perpendicular to main axis.
+    -->
+    <div class="parent">
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+
+    </div>
+<h2>Flex direction</h2>
+<!-- FLex direnction is used to change the directiion of the flex box.
+Syntax:
+flex-direction : row/ column/ row-reverse/ column-reverse; 
+-->
+    <p>Flex direction: column</p>
+     <div class="parent" id="column">
+
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+
+    </div>
+
+<hr>
+
+<p>Flex direction: row-reverse</p>
+<div class="parent" id="row-reverse">
+
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+
+    </div>
+
+<p>Flex direction: column-reverse</p>
+<div class="parent" id="column-reverse">
+
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+
+    </div>
+
+
+    <h2>Justify content</h2>
+    <!-- Justify Content manage the space between the items in main axis 
+    Syntax: 
+    justify- content : space-evenly, space- around , space-between . 
+    -->
+
+    <p>Justify Content: space-evenly</p>
+     <div class="parent" id="space-evenly">
+
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+
+    </div>
+`      <p>Justify Content: space around</p>
+ <div class="parent" id="space-around">
+
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+
+    </div>
+    <p>Justify Content: space between</p>
+     <div class="parent" id="space-between">
+
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+
+    </div>
+    <p>Justify Content:right</p>
+    <div class="parent" id="space-right">
+
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+    </div>
+
+    <p>Justify Content:center</p>
+    <div class="parent" id="space-center">
+
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+    </div>
+
+    <h2>ALign Item</h2>
+    <!--
+    align- items
+    It is used for items alginment in display flex. It works in the cross axis (perpendicular to the flex- direction.)
+
+    syntax:
+    align-item: start/ end/ center
+    -->
+<p>Align Items: Start</p>
+    <div class="parent" id="start">
+
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+    </div>
+<p>Align Items: End</p>
+    <div class="parent" id="end">
+
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+    </div>
+
+    <p>Align Items: Center</p>
+    <div class="parent" id="center">
+
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+    </div>
+
+
+
+
+</html>
