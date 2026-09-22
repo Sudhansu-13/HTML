@@ -1,0 +1,48 @@
+.parent {
+    height: 400px;
+    width: 500px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.child{
+ height: 100px;
+    width:100px;
+    border: 1px solid black;
+}
+
+
+/* FLexbox Day2 */
+/* flex- wrap
+    It wraps the item inside the container. If the total size of all items is greater than container size.
+    THen items appears in new line in same dimension.
+
+    syntax: wrap , wrap-reverse , no- wrap 
+
+    align-content : used to manage alignment of items arranged in multiple line.
+*/ 
+.container{
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    display: flex;
+    /* flex-wrap: wrap;
+    align-content: center; */
+    align-items: center;
+}
+.item{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+/*align self */
+
+#self-second{
+    align-self: flex-start;
+}
+#self-third{
+    align-self: flex-end;
+}
